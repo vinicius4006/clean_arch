@@ -1,7 +1,9 @@
+import 'package:clean_arc/layers/core/inject/inject.dart';
 import 'package:clean_arc/layers/presentation/UI/views/carro_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  Inject.init();
   runApp(const MyApp());
 }
 
