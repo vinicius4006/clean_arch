@@ -1,3 +1,5 @@
+import 'package:clean_arc/layers/data/dto/carro_dto.dart';
+
 abstract class GetCarrosPorCorDataSource {
-  CarroDto(String cor);
+  CarroDto call(String cor);
 }
